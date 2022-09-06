@@ -1,13 +1,10 @@
+#dependencies
+node_modules
+
 # binaries
 bin/
 dist/
 lib/
-./node_modules
-/node_modules.
-node_modules
-node_modules/
-**/node_modules
-
 
 # editors
 *.swp
