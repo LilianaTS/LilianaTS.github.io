@@ -2,6 +2,12 @@
 bin/
 dist/
 lib/
+./node_modules
+/node_modules.
+node_modules
+node_modules/
+**/node_modules
+
 
 # editors
 *.swp
@@ -9,7 +15,3 @@ lib/
 .vs/
 .vscode/
 .DS_Store
-./node_modules
-/node_modules.
-node_modules
-node_modules/
