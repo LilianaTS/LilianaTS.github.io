@@ -1,0 +1,37 @@
+#root {
+  background-color: #FFFFFF;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1%;
+  height: 9vmax;
+  background-color: #21242b;
+  
+  .picture {
+    height: 10vmax;
+  }
+
+  .title{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.5vw;
+    margin-left: 10%;
+    margin-right: 28%;
+    text-align: center;  
+  }
+
+  &:hover { 
+    cursor:default;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+	margin: 0;
+}
